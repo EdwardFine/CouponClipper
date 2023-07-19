@@ -52,6 +52,10 @@ public class HomeController : Controller
             return View("Index");
         }
         User? UserInDb = db.Users.FirstOrDefault(u=>u.Email == loginUser.Email);
+        if(UserInDb == null){
+            ModelState.AddModelError("Email", "Invalid Email/Password");    
+            return View("Index");
+        }
         PasswordHasher<LoginUser> hasher = new PasswordHasher<LoginUser>();
         var result = hasher.VerifyHashedPassword(loginUser, UserInDb.Password, loginUser.Password);
         if(result ==0){
