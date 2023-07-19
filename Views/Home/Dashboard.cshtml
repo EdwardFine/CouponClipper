@@ -1,0 +1,57 @@
+@await Html.PartialAsync("_Navbar")
+@model List<Coupon>
+<h1 class="mb-3">Welcome, @ViewBag.User.Username!</h1>
+<div class="d-flex flex-wrap gap-5 justify-content-center">
+@{
+    foreach(Coupon c in Model){
+        <div class="p-3 text-center" style="border: 1px solid black; width:25%">
+            <h2 style="font-weight: bolder;">@c.Code</h2>
+            <h3>Use On: @c.Source</h3>
+            <h4>@c.Description</h4>
+            <p>@c.AllClips.Count people have used this</p>
+            @{
+                if(ViewBag.User.UserId == c.UserId){
+                    <p class="font-weight-bold">You created this!</p>
+                }else{
+                    bool hasClipped = false;
+                    foreach(Clip clip in c.AllClips){
+                        if(clip.UserId == ViewBag.User.UserId){
+                            hasClipped=true;
+                            break;
+                        }
+                    }
+                    if(!hasClipped){
+                        <form asp-action="ClipCoupon" asp-controller="Home" method="post">
+                            <input type="hidden" name="UserId" value="@ViewBag.User.UserId">
+                            <input type="hidden" name="CouponId" value="@c.CouponId">
+                            <button class="btn btn-primary">Use Coupon</button>
+                        </form>
+                    }else{
+                        <p class="font-weight-bold">You used this coupon</p>
+                    }
+                }
+            }
+            <p>Posted by: @c.Creator.Username</p>
+            <p class="text-danger font-weight-bold">@c.AllExpired.Count people claim this coupon is expired</p>
+            @{
+                bool isExpired = false;
+                foreach(Expired clip in c.AllExpired){
+                        if(clip.UserId == ViewBag.User.UserId){
+                            isExpired=true;
+                            break;
+                        }
+                    }
+                if(!isExpired){
+                    <form asp-action="AddExpire" asp-controller="Home" method="post">
+                        <input type="hidden" name="UserId" value="@ViewBag.User.UserId">
+                        <input type="hidden" name="CouponId" value="@c.CouponId">
+                        <button class="btn btn-danger">Expired?</button>
+                    </form>
+                }else{
+                    <p>You marked this coupon as expired</p>
+                }
+            }
+        </div>
+    }
+}
+</div>

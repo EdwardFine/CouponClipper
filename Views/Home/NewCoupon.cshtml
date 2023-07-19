@@ -1,0 +1,24 @@
+@await Html.PartialAsync("_Navbar")
+@model Coupon
+<div class="text-center">
+    <h1>Add a Coupon</h1>
+    <form asp-action="CreateCoupon" asp-controller="Home" method="post" style="width: 50%; margin:0 auto;" class="shadow p-3 rounded mt-3">
+        <div class="mb-3">
+            <label asp-for="Code"></label>
+            <input asp-for="Code" class="form-control">
+            <span asp-validation-for="Code" class="text-danger font-weight-bold"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Source">Website appliable on</label>
+            <input asp-for="Source" class="form-control">
+            <span asp-validation-for="Source" class="text-danger font-weight-bold"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control">
+            <span asp-validation-for="Description" class="text-danger font-weight-bold"></span>
+        </div>
+        <input type="hidden" name="UserId" value="@ViewBag.User.UserId">
+        <button class="btn btn-success">Create Coupon</button>
+    </form>
+</div>

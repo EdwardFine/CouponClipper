@@ -1,0 +1,16 @@
+@await Html.PartialAsync("_Navbar")
+@model User
+<h1>Account Information</h1>
+<h3>Username: @Model.Username</h3>
+<h3>Email: @Model.Email</h3>
+<br>
+<h3>Coupons you posted: @Model.AllCoupons.Count</h3>
+@{
+    int CouponsUsed=0;
+    foreach(Coupon c in Model.AllCoupons){
+        CouponsUsed += c.AllClips.Count;
+    }
+    <h3>The coupons you've posted have been used: @CouponsUsed</h3>
+}
+<h3># of coupons you used: @Model.AllClips.Count</h3>
+<h3># of coupons you marked as expired: @Model.AllExpired.Count</h3>

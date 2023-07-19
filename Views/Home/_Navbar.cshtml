@@ -1,0 +1,11 @@
+<div class="d-flex justify-content-between align-items-center" style="font-size: 1.5em;">
+    <div class="d-flex gap-3 align-items-center">
+        <a href="/dashboard" style="text-decoration: inherit;color: inherit;"><h2>Coupon Clipper</h2></a>
+        <a href="/coupon/new" >Create a Coupon</a>
+        <a href="/user/@ViewBag.User.UserId">Account Info</a>
+    </div>
+    <form id="Logout" asp-action="Logout" asp-controller="Home" method="post">
+        <button class="btn btn-danger">Logout</button>
+    </form>
+</div>
+<hr>
