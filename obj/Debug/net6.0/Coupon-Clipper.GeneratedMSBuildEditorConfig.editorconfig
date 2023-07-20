@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Coupon_Clipper
 build_property.RootNamespace = Coupon_Clipper
-build_property.ProjectDir = D:\Coding_Dojo\C#-Final-Attempt1\Coupon-Clipper\
+build_property.ProjectDir = d:\Coding_Dojo\C#-Final-Attempt1\Coupon-Clipper\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Coding_Dojo\C#-Final-Attempt1\Coupon-Clipper
+build_property.MSBuildProjectDirectory = d:\Coding_Dojo\C#-Final-Attempt1\Coupon-Clipper
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/Dashboard.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/Index.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/NewCoupon.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/NewCoupon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdDb3Vwb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/ViewUser.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/ViewUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/_LoginForm.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/_LoginForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTG9naW5Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/_Navbar.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/_RegisterForm.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Home/_RegisterForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUmVnaXN0ZXJGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Shared/Error.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/_ViewImports.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/_ViewStart.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Shared/_Layout.cshtml]
+[d:/Coding_Dojo/C\#-Final-Attempt1/Coupon-Clipper/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nmhm3hi0gr
